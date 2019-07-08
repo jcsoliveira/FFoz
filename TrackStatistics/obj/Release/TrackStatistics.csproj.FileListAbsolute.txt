@@ -1,0 +1,13 @@
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\TrackStatistics.exe.config
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\TrackStatistics.exe
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\TrackStatistics.XmlSerializers.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\MapGuideAPIs.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Release\Interop.SdfComponentToolkit.dll
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.Statistics.resources
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.csproj.CopyComplete
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.exe
+E:\01-AIS\FFoz\TrackStatistics\obj\Release\TrackStatistics.XmlSerializers.dll

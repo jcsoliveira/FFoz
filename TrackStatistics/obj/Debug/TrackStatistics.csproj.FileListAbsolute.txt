@@ -1,0 +1,15 @@
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\TrackStatistics.exe.config
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\TrackStatistics.exe
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\TrackStatistics.pdb
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\DBAccess.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\MapGuideAPIs.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\Interop.SdfComponentToolkit.dll
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\DBAccess.pdb
+E:\01-AIS\FFoz\TrackStatistics\bin\Debug\MapGuideAPIs.pdb
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.Statistics.resources
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.csproj.CopyComplete
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.exe
+E:\01-AIS\FFoz\TrackStatistics\obj\Debug\TrackStatistics.pdb

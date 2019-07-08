@@ -1,0 +1,5 @@
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Debug\MapGuideAPIs.csproj.ResolveComReference.cache
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Debug\MapGuideAPIs.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Debug\MapGuideAPIs.dll
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Debug\MapGuideAPIs.pdb
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Debug\MapGuideAPIs.csprojAssemblyReference.cache

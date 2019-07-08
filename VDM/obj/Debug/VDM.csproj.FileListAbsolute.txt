@@ -1,0 +1,12 @@
+E:\01-AIS\FFoz\VDM\bin\Debug\VDM.dll
+E:\01-AIS\FFoz\VDM\bin\Debug\VDM.pdb
+E:\01-AIS\FFoz\VDM\bin\Debug\DBAccess.dll
+E:\01-AIS\FFoz\VDM\bin\Debug\NMEAD_ADT.dll
+E:\01-AIS\FFoz\VDM\bin\Debug\DBAccess.pdb
+E:\01-AIS\FFoz\VDM\bin\Debug\NMEAD_ADT.pdb
+E:\01-AIS\FFoz\VDM\bin\Debug\NMEAD_ADT.dll.config
+E:\01-AIS\FFoz\VDM\obj\Debug\VDM.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\VDM\obj\Debug\VDM.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\VDM\obj\Debug\VDM.csproj.CopyComplete
+E:\01-AIS\FFoz\VDM\obj\Debug\VDM.dll
+E:\01-AIS\FFoz\VDM\obj\Debug\VDM.pdb

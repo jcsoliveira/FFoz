@@ -1,0 +1,12 @@
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Debug\OPSIM_AIS_Reader.exe.config
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Debug\OPSIM_AIS_Reader.exe
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Debug\OPSIM_AIS_Reader.pdb
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Debug\DBAccess.dll
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Debug\DBAccess.pdb
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.Form1.resources
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.csproj.CopyComplete
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.exe
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Debug\OPSIM_AIS_Reader.pdb

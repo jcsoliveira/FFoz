@@ -1,0 +1,2 @@
+UPDATE    CSHS
+SET              Long_deg = CAST(Long AS int) + (Long - CAST(Long AS int)) / 0.6

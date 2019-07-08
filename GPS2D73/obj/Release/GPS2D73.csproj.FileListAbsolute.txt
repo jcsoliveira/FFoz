@@ -1,0 +1,13 @@
+E:\01-AIS\FFoz\GPS2D73\bin\Release\GPS2D73.exe.config
+E:\01-AIS\FFoz\GPS2D73\bin\Release\GPS2D73.exe
+E:\01-AIS\FFoz\GPS2D73\bin\Release\GPS2D73.XmlSerializers.dll
+E:\01-AIS\FFoz\GPS2D73\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\GPS2D73\bin\Release\MapGuideAPIs.dll
+E:\01-AIS\FFoz\GPS2D73\bin\Release\Interop.SdfComponentToolkit.dll
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.Dt73Converter.resources
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.csproj.CopyComplete
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.exe
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.XmlSerializers.dll
+E:\01-AIS\FFoz\GPS2D73\obj\Release\GPS2D73.csprojAssemblyReference.cache

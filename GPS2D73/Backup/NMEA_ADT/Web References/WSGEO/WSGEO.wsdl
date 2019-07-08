@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WGS84TODATUM73">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WGS84" type="tns:StrctGEO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="StrctGEO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Lat" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Long" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Height" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WGS84TODATUM73Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WGS84TODATUM73Result" type="tns:StrctDATUM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="StrctDATUM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="x" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="y" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="z" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DATUM73TOWGS84">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="D73" type="tns:StrctDATUM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DATUM73TOWGS84Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DATUM73TOWGS84Result" type="tns:StrctGEO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WGS84TODATUM73SoapIn">
+    <wsdl:part name="parameters" element="tns:WGS84TODATUM73" />
+  </wsdl:message>
+  <wsdl:message name="WGS84TODATUM73SoapOut">
+    <wsdl:part name="parameters" element="tns:WGS84TODATUM73Response" />
+  </wsdl:message>
+  <wsdl:message name="DATUM73TOWGS84SoapIn">
+    <wsdl:part name="parameters" element="tns:DATUM73TOWGS84" />
+  </wsdl:message>
+  <wsdl:message name="DATUM73TOWGS84SoapOut">
+    <wsdl:part name="parameters" element="tns:DATUM73TOWGS84Response" />
+  </wsdl:message>
+  <wsdl:portType name="WSGEOSoap">
+    <wsdl:operation name="WGS84TODATUM73">
+      <wsdl:input message="tns:WGS84TODATUM73SoapIn" />
+      <wsdl:output message="tns:WGS84TODATUM73SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DATUM73TOWGS84">
+      <wsdl:input message="tns:DATUM73TOWGS84SoapIn" />
+      <wsdl:output message="tns:DATUM73TOWGS84SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSGEOSoap" type="tns:WSGEOSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="WGS84TODATUM73">
+      <soap:operation soapAction="http://tempuri.org/WGS84TODATUM73" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DATUM73TOWGS84">
+      <soap:operation soapAction="http://tempuri.org/DATUM73TOWGS84" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSGEO">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="WSGEOSoap" binding="tns:WSGEOSoap">
+      <soap:address location="http://localhost/WSGEO/WSGEO.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

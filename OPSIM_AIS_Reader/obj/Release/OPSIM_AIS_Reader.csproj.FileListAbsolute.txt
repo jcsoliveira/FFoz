@@ -1,0 +1,11 @@
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Release\OPSIM_AIS_Reader.exe.config
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Release\OPSIM_AIS_Reader.exe
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Release\OPSIM_AIS_Reader.XmlSerializers.dll
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.Form1.resources
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.csproj.CopyComplete
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.exe
+E:\01-AIS\FFoz\OPSIM_AIS_Reader\obj\Release\OPSIM_AIS_Reader.XmlSerializers.dll

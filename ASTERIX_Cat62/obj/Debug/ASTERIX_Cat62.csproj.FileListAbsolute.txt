@@ -1,0 +1,12 @@
+E:\01-AIS\FFoz\ASTERIX_Cat62\bin\Debug\ASTERIX_Cat62.exe.config
+E:\01-AIS\FFoz\ASTERIX_Cat62\bin\Debug\ASTERIX_Cat62.exe
+E:\01-AIS\FFoz\ASTERIX_Cat62\bin\Debug\ASTERIX_Cat62.pdb
+E:\01-AIS\FFoz\ASTERIX_Cat62\bin\Debug\DBAccess.dll
+E:\01-AIS\FFoz\ASTERIX_Cat62\bin\Debug\DBAccess.pdb
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.ASTERIX_Cat62.resources
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.csproj.CopyComplete
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.exe
+E:\01-AIS\FFoz\ASTERIX_Cat62\obj\Debug\ASTERIX_Cat62.pdb

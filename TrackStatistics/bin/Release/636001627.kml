@@ -1,0 +1,27 @@
+<kml xmlns='http://earth.google.com/kml/2.0'>
+<Folder>
+		<description>636001627</description>		<name></name>
+<visibility>1</visibility>
+<open>1</open>
+<Document>
+<description></description>
+<name>
+636001627</name>
+<Placemark>
+<name>
+636001627</name>
+<Style>
+<geomColor>ccff00ff</geomColor>
+<geomScale>2</geomScale>
+</Style>
+<LineString>
+<tessellate>1</tessellate>
+<extrude>0</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</Folder>>
+</kml>

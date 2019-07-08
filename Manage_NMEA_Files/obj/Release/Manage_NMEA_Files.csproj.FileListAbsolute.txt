@@ -1,0 +1,14 @@
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\Manage_AIS_Files.exe.config
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\Manage_AIS_Files.exe
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\NMEA.dll
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\NMEAD_ADT.dll
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\VDM.dll
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\NMEAD_ADT.dll.config
+E:\01-AIS\FFoz\Manage_NMEA_Files\bin\Release\NMEAD_ADT.XmlSerializers.dll
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_NMEA_Files.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_NMEA_Files.Form1.resources
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_NMEA_Files.csproj.GenerateResource.cache
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_NMEA_Files.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_NMEA_Files.csproj.CopyComplete
+E:\01-AIS\FFoz\Manage_NMEA_Files\obj\Release\Manage_AIS_Files.exe

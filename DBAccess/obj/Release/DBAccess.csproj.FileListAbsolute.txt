@@ -1,0 +1,4 @@
+E:\01-AIS\FFoz\DBAccess\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\DBAccess\obj\Release\DBAccess.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\DBAccess\obj\Release\DBAccess.dll
+E:\01-AIS\FFoz\DBAccess\obj\Release\DBAccess.csprojAssemblyReference.cache

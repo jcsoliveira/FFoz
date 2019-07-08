@@ -1,0 +1,9 @@
+E:\01-AIS\FFoz\NMEA_ADT\bin\Release\NMEAD_ADT.dll.config
+E:\01-AIS\FFoz\NMEA_ADT\bin\Release\NMEAD_ADT.dll
+E:\01-AIS\FFoz\NMEA_ADT\bin\Release\NMEAD_ADT.XmlSerializers.dll
+E:\01-AIS\FFoz\NMEA_ADT\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\NMEA_ADT\obj\Release\NMEA_ADT.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\NMEA_ADT\obj\Release\NMEA_ADT.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\NMEA_ADT\obj\Release\NMEA_ADT.csproj.CopyComplete
+E:\01-AIS\FFoz\NMEA_ADT\obj\Release\NMEAD_ADT.dll
+E:\01-AIS\FFoz\NMEA_ADT\obj\Release\NMEAD_ADT.XmlSerializers.dll

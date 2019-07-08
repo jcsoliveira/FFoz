@@ -1,0 +1,3 @@
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Release\MapGuideAPIs.csproj.ResolveComReference.cache
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Release\MapGuideAPIs.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\MapGuideAPIs\obj\Release\MapGuideAPIs.dll

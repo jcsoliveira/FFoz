@@ -1,0 +1,133 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS2D73", "GPS2D73.csproj", "{C6EB22A2-02AD-419F-8D6F-6A1422F61B7E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAccess", "..\DBAccess\DBAccess.csproj", "{2650A95D-B103-493A-8CCE-C7ECC82868BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapGuideAPIs", "..\MapGuideAPIs\MapGuideAPIs.csproj", "{FA7B5046-C96F-4162-B19A-2CCC8BC0C379}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS_Reader", "..\AIS_Reader\AIS_Reader.csproj", "{41E6139C-AA2A-444C-85A9-511F9102EA87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manage_NMEA_Files", "..\Manage_NMEA_Files\Manage_NMEA_Files.csproj", "{FF321493-F3B6-42F1-800B-7C2FC826A50C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDM", "..\VDM\VDM.csproj", "{499A4C1A-752E-48C7-8AEA-BAEDA985C7C5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMEA_ADT", "..\NMEA_ADT\NMEA_ADT.csproj", "{C8EF76CA-C1B4-4C9B-AA4A-F3A6C3ED6CEB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMEA", "..\NMEA\NMEA.csproj", "{E56927B7-E270-4368-BA16-9A2C977676F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackStatistics", "..\TrackStatistics\TrackStatistics.csproj", "{67C81A92-41DD-4A78-8B50-73EB6C1ED515}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASTERIX_Cat10", "..\ASTERIX_Cat10\ASTERIX_Cat10.csproj", "{E176FC06-5B06-48B9-96E2-56CF22070790}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleEarthConverter", "..\GoogleEarthConverter\GoogleEarthConverter.csproj", "{04BC7C7D-5657-43F5-B023-41C3A6A9C765}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPSIM_AIS_Reader", "..\OPSIM_AIS_Reader\OPSIM_AIS_Reader.csproj", "{31BAE8FC-919F-4641-8DCC-34B503DCB54F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASTERIX_Cat62", "..\ASTERIX_Cat62\ASTERIX_Cat62.csproj", "{5E914E8D-2428-46FF-8A53-12552B48C63C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIS_Message_Handler", "..\AIS_Message_Handler\AIS_Message_Handler.csproj", "{6C847236-35A4-4F7D-A413-F91E47C4313D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manage_Raw_NMEA_Files", "..\Manage_Raw_NMEA_Files\Manage_Raw_NMEA_Files.csproj", "{FF321493-F3B6-42F1-800B-7C2FC826A50C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C6EB22A2-02AD-419F-8D6F-6A1422F61B7E}.Debug.ActiveCfg = Debug|.NET
+		{C6EB22A2-02AD-419F-8D6F-6A1422F61B7E}.Debug.Build.0 = Debug|.NET
+		{C6EB22A2-02AD-419F-8D6F-6A1422F61B7E}.Release.ActiveCfg = Release|.NET
+		{C6EB22A2-02AD-419F-8D6F-6A1422F61B7E}.Release.Build.0 = Release|.NET
+		{2650A95D-B103-493A-8CCE-C7ECC82868BE}.Debug.ActiveCfg = Debug|.NET
+		{2650A95D-B103-493A-8CCE-C7ECC82868BE}.Debug.Build.0 = Debug|.NET
+		{2650A95D-B103-493A-8CCE-C7ECC82868BE}.Release.ActiveCfg = Release|.NET
+		{2650A95D-B103-493A-8CCE-C7ECC82868BE}.Release.Build.0 = Release|.NET
+		{FA7B5046-C96F-4162-B19A-2CCC8BC0C379}.Debug.ActiveCfg = Debug|.NET
+		{FA7B5046-C96F-4162-B19A-2CCC8BC0C379}.Debug.Build.0 = Debug|.NET
+		{FA7B5046-C96F-4162-B19A-2CCC8BC0C379}.Release.ActiveCfg = Release|.NET
+		{FA7B5046-C96F-4162-B19A-2CCC8BC0C379}.Release.Build.0 = Release|.NET
+		{41E6139C-AA2A-444C-85A9-511F9102EA87}.Debug.ActiveCfg = Debug|.NET
+		{41E6139C-AA2A-444C-85A9-511F9102EA87}.Debug.Build.0 = Debug|.NET
+		{41E6139C-AA2A-444C-85A9-511F9102EA87}.Release.ActiveCfg = Release|.NET
+		{41E6139C-AA2A-444C-85A9-511F9102EA87}.Release.Build.0 = Release|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Debug.ActiveCfg = Debug|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Debug.Build.0 = Debug|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Release.ActiveCfg = Release|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Release.Build.0 = Release|.NET
+		{499A4C1A-752E-48C7-8AEA-BAEDA985C7C5}.Debug.ActiveCfg = Debug|.NET
+		{499A4C1A-752E-48C7-8AEA-BAEDA985C7C5}.Debug.Build.0 = Debug|.NET
+		{499A4C1A-752E-48C7-8AEA-BAEDA985C7C5}.Release.ActiveCfg = Release|.NET
+		{499A4C1A-752E-48C7-8AEA-BAEDA985C7C5}.Release.Build.0 = Release|.NET
+		{C8EF76CA-C1B4-4C9B-AA4A-F3A6C3ED6CEB}.Debug.ActiveCfg = Debug|.NET
+		{C8EF76CA-C1B4-4C9B-AA4A-F3A6C3ED6CEB}.Debug.Build.0 = Debug|.NET
+		{C8EF76CA-C1B4-4C9B-AA4A-F3A6C3ED6CEB}.Release.ActiveCfg = Release|.NET
+		{C8EF76CA-C1B4-4C9B-AA4A-F3A6C3ED6CEB}.Release.Build.0 = Release|.NET
+		{E56927B7-E270-4368-BA16-9A2C977676F9}.Debug.ActiveCfg = Debug|.NET
+		{E56927B7-E270-4368-BA16-9A2C977676F9}.Debug.Build.0 = Debug|.NET
+		{E56927B7-E270-4368-BA16-9A2C977676F9}.Release.ActiveCfg = Release|.NET
+		{E56927B7-E270-4368-BA16-9A2C977676F9}.Release.Build.0 = Release|.NET
+		{67C81A92-41DD-4A78-8B50-73EB6C1ED515}.Debug.ActiveCfg = Debug|.NET
+		{67C81A92-41DD-4A78-8B50-73EB6C1ED515}.Debug.Build.0 = Debug|.NET
+		{67C81A92-41DD-4A78-8B50-73EB6C1ED515}.Release.ActiveCfg = Release|.NET
+		{67C81A92-41DD-4A78-8B50-73EB6C1ED515}.Release.Build.0 = Release|.NET
+		{E176FC06-5B06-48B9-96E2-56CF22070790}.Debug.ActiveCfg = Debug|.NET
+		{E176FC06-5B06-48B9-96E2-56CF22070790}.Debug.Build.0 = Debug|.NET
+		{E176FC06-5B06-48B9-96E2-56CF22070790}.Release.ActiveCfg = Release|.NET
+		{E176FC06-5B06-48B9-96E2-56CF22070790}.Release.Build.0 = Release|.NET
+		{04BC7C7D-5657-43F5-B023-41C3A6A9C765}.Debug.ActiveCfg = Debug|.NET
+		{04BC7C7D-5657-43F5-B023-41C3A6A9C765}.Debug.Build.0 = Debug|.NET
+		{04BC7C7D-5657-43F5-B023-41C3A6A9C765}.Release.ActiveCfg = Release|.NET
+		{04BC7C7D-5657-43F5-B023-41C3A6A9C765}.Release.Build.0 = Release|.NET
+		{31BAE8FC-919F-4641-8DCC-34B503DCB54F}.Debug.ActiveCfg = Debug|.NET
+		{31BAE8FC-919F-4641-8DCC-34B503DCB54F}.Debug.Build.0 = Debug|.NET
+		{31BAE8FC-919F-4641-8DCC-34B503DCB54F}.Release.ActiveCfg = Release|.NET
+		{31BAE8FC-919F-4641-8DCC-34B503DCB54F}.Release.Build.0 = Release|.NET
+		{5E914E8D-2428-46FF-8A53-12552B48C63C}.Debug.ActiveCfg = Debug|.NET
+		{5E914E8D-2428-46FF-8A53-12552B48C63C}.Debug.Build.0 = Debug|.NET
+		{5E914E8D-2428-46FF-8A53-12552B48C63C}.Release.ActiveCfg = Release|.NET
+		{5E914E8D-2428-46FF-8A53-12552B48C63C}.Release.Build.0 = Release|.NET
+		{6C847236-35A4-4F7D-A413-F91E47C4313D}.Debug.ActiveCfg = Debug|.NET
+		{6C847236-35A4-4F7D-A413-F91E47C4313D}.Debug.Build.0 = Debug|.NET
+		{6C847236-35A4-4F7D-A413-F91E47C4313D}.Release.ActiveCfg = Release|.NET
+		{6C847236-35A4-4F7D-A413-F91E47C4313D}.Release.Build.0 = Release|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Debug.ActiveCfg = Debug|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Debug.Build.0 = Debug|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Release.ActiveCfg = Release|.NET
+		{FF321493-F3B6-42F1-800B-7C2FC826A50C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
