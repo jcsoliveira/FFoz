@@ -1,0 +1,11 @@
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\AIS_Message_Handler.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\DBAccess.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\NMEA.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\NMEAD_ADT.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\VDM.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\NMEAD_ADT.dll.config
+E:\01-AIS\FFoz\AIS_Message_Handler\bin\Release\NMEAD_ADT.XmlSerializers.dll
+E:\01-AIS\FFoz\AIS_Message_Handler\obj\Release\AIS_Message_Handler.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\AIS_Message_Handler\obj\Release\AIS_Message_Handler.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\AIS_Message_Handler\obj\Release\AIS_Message_Handler.csproj.CopyComplete
+E:\01-AIS\FFoz\AIS_Message_Handler\obj\Release\AIS_Message_Handler.dll

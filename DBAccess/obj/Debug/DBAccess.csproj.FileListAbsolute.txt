@@ -3,3 +3,4 @@ E:\01-AIS\FFoz\DBAccess\bin\Debug\DBAccess.pdb
 E:\01-AIS\FFoz\DBAccess\obj\Debug\DBAccess.csproj.CoreCompileInputs.cache
 E:\01-AIS\FFoz\DBAccess\obj\Debug\DBAccess.dll
 E:\01-AIS\FFoz\DBAccess\obj\Debug\DBAccess.pdb
+E:\01-AIS\FFoz\DBAccess\obj\Debug\DBAccess.csprojAssemblyReference.cache

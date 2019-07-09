@@ -1,0 +1,4 @@
+E:\01-AIS\FFoz\AIS_Reader\bin\Release\AIS_Reader.dll
+E:\01-AIS\FFoz\AIS_Reader\obj\Release\AIS_Reader.csprojAssemblyReference.cache
+E:\01-AIS\FFoz\AIS_Reader\obj\Release\AIS_Reader.csproj.CoreCompileInputs.cache
+E:\01-AIS\FFoz\AIS_Reader\obj\Release\AIS_Reader.dll

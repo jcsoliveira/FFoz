@@ -50,6 +50,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -117,12 +119,21 @@
     <Content Include="AISMarkers\AIS_lost.svg" />
     <Content Include="AISMarkers\AIS_target_selected.svg" />
     <Content Include="AISMarkers\AIS_Vessel.svg" />
-    <Content Include="AISMarkers\AIS_VesselHistory.png" />
+    <Content Include="AISMarkers\AIS_VesselHistory.svg" />
     <Content Include="AISMarkers\AIS_withHeading.svg" />
     <Content Include="AISMarkers\cargo-ship.png" />
+    <Content Include="AISMarkers\CargoShip.svg" />
     <Content Include="AISMarkers\DangerousCargo.png" />
     <Content Include="AISMarkers\fisheryShip.png" />
+    <Content Include="AISMarkers\FishingShip.svg" />
     <Content Include="AISMarkers\myDangerousCargo.svg" />
+    <None Include="Connected Services\AisDataWebservice\AISDataretriever.disco" />
+    <None Include="Connected Services\AisDataWebservice\configuration91.svcinfo" />
+    <None Include="Connected Services\AisDataWebservice\configuration.svcinfo" />
+    <None Include="Connected Services\AisDataWebservice\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -141,11 +152,24 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Connected Services\AisDataWebservice\AISDataretriever.wsdl" />
+    <Content Include="Connected Services\AisDataWebservice\WebATP.AisDataWebservice.HelloWorldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\AisDataWebservice\WebATP.AisDataWebservice.ShipVoyageData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\AisDataWebservice\WebATP.AisDataWebservice.TransferShipVoyageDataToServerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="AISstyles.css" />
     <Content Include="AISTacticalPicture.js" />
     <Content Include="AISTacticalPicture.html" />
+    <Content Include="History.js" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="JavaScript.js" />
     <Content Include="MainOpenLayers.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -176,6 +200,8 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="TrackDetailsWebForm.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -191,6 +217,11 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Connected Services\AisDataWebservice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -223,6 +254,13 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="TrackDetailsWebForm.aspx.cs">
+      <DependentUpon>TrackDetailsWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrackDetailsWebForm.aspx.designer.cs">
+      <DependentUpon>TrackDetailsWebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,6 +288,12 @@
       <Project>{2650a95d-b103-493a-8cce-c7ecc82868be}</Project>
       <Name>DBAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\AisDataWebservice\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

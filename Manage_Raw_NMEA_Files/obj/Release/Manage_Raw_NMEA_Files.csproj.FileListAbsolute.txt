@@ -5,7 +5,6 @@ E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\DBAccess.dll
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\NMEA.dll
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\NMEAD_ADT.dll
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\VDM.dll
-E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\AIS_Message_Handler.pdb
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\NMEAD_ADT.dll.config
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\bin\Release\NMEAD_ADT.XmlSerializers.dll
 E:\01-AIS\FFoz\Manage_Raw_NMEA_Files\obj\Release\Manage_Raw_NMEA_Files.csprojAssemblyReference.cache

@@ -54,4 +54,3 @@ E:\01-AIS\FFoz\AISWebService\obj\Release\AISWebService.csproj.CoreCompileInputs.
 E:\01-AIS\FFoz\AISWebService\obj\Release\AISWebService.csproj.CopyComplete
 E:\01-AIS\FFoz\AISWebService\obj\Release\AISWebService.dll
 E:\01-AIS\FFoz\AISWebService\obj\Release\AISWebService.pdb
-E:\01-AIS\FFoz\AISWebService\obj\Release\AISWebService.csprojAssemblyReference.cache

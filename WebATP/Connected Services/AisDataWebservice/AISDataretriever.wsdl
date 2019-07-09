@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferAISPosition">
+        <s:complexType />
+      </s:element>
+      <s:element name="TransferAISPositionResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TransferShipVoyageData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MMSI" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferShipVoyageDataResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TransferShipVoyageDataToServer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MMSI" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferShipVoyageDataToServerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TransferShipVoyageDataToServerResult" type="tns:ShipVoyageData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ShipVoyageData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MMSI" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Navstatus" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SOG" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="COG" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="heading" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeDate" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mess_time" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AlarmeOn" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IMO_number" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Call_sign" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="length" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="width" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="draught" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="ETA" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Destination" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="TransferShipHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MMSI" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferShipHistoryResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferAISPositionSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferAISPosition" />
+  </wsdl:message>
+  <wsdl:message name="TransferAISPositionSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferAISPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipVoyageDataSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferShipVoyageData" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipVoyageDataSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferShipVoyageDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipVoyageDataToServerSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferShipVoyageDataToServer" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipVoyageDataToServerSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferShipVoyageDataToServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:TransferShipHistory" />
+  </wsdl:message>
+  <wsdl:message name="TransferShipHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:TransferShipHistoryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AISDataretrieverSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferAISPosition">
+      <wsdl:input message="tns:TransferAISPositionSoapIn" />
+      <wsdl:output message="tns:TransferAISPositionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageData">
+      <wsdl:input message="tns:TransferShipVoyageDataSoapIn" />
+      <wsdl:output message="tns:TransferShipVoyageDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageDataToServer">
+      <wsdl:input message="tns:TransferShipVoyageDataToServerSoapIn" />
+      <wsdl:output message="tns:TransferShipVoyageDataToServerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipHistory">
+      <wsdl:input message="tns:TransferShipHistorySoapIn" />
+      <wsdl:output message="tns:TransferShipHistorySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AISDataretrieverSoap" type="tns:AISDataretrieverSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAISPosition">
+      <soap:operation soapAction="http://tempuri.org/TransferAISPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageData">
+      <soap:operation soapAction="http://tempuri.org/TransferShipVoyageData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageDataToServer">
+      <soap:operation soapAction="http://tempuri.org/TransferShipVoyageDataToServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipHistory">
+      <soap:operation soapAction="http://tempuri.org/TransferShipHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AISDataretrieverSoap12" type="tns:AISDataretrieverSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAISPosition">
+      <soap12:operation soapAction="http://tempuri.org/TransferAISPosition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageData">
+      <soap12:operation soapAction="http://tempuri.org/TransferShipVoyageData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipVoyageDataToServer">
+      <soap12:operation soapAction="http://tempuri.org/TransferShipVoyageDataToServer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferShipHistory">
+      <soap12:operation soapAction="http://tempuri.org/TransferShipHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AISDataretriever">
+    <wsdl:port name="AISDataretrieverSoap" binding="tns:AISDataretrieverSoap">
+      <soap:address location="http://localhost/AISDataretriever/AISDataretriever.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AISDataretrieverSoap12" binding="tns:AISDataretrieverSoap12">
+      <soap12:address location="http://localhost/AISDataretriever/AISDataretriever.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

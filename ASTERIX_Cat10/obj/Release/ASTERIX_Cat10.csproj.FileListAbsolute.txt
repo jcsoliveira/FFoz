@@ -8,3 +8,4 @@ E:\01-AIS\FFoz\ASTERIX_Cat10\obj\Release\ASTERIX_Cat10.csproj.CoreCompileInputs.
 E:\01-AIS\FFoz\ASTERIX_Cat10\obj\Release\ASTERIX_Cat10.csproj.CopyComplete
 E:\01-AIS\FFoz\ASTERIX_Cat10\obj\Release\ASTERIX_Cat10.exe
 E:\01-AIS\FFoz\ASTERIX_Cat10\obj\Release\ASTERIX_Cat10.XmlSerializers.dll
+E:\01-AIS\FFoz\ASTERIX_Cat10\obj\Release\ASTERIX_Cat10.csprojAssemblyReference.cache

@@ -66,50 +66,13 @@ var map = new ol.Map({
     })*/
 });
 
-function addMarkerHistory(MMSI, longitude, latitude) {
-    if (parseFloat(longitude) >= -180.0 && parseFloat(longitude) <= 180.0
-        && parseFloat(latitude) >= -90.0 && parseFloat(latitude) <= 90.0) {
+//call to initiate the history layer to the map
+initHistory(map);
 
-            var markerX = new ol.Feature({
-                geometry: new ol.geom.Point(ol.proj.fromLonLat([parseFloat(longitude), parseFloat(latitude)]))
-            });
-        markerX.setStyle(new ol.style.Style({
-            image: new ol.style.Icon({
-                crossOrigin:
-                    'anonymous',
-                src: 'AISMarkers/AIS_VesselHistory.png',
-                scale: 0.30
-            })
-        }));
-        //decidir se ponho na mesma layer dos markers actuais 
-        markerX.setId(MMSI);
-        myMarkerFeatures.push(markerX);
-    }
-
-}
-
-function DisplayTrackHistory(MMSI) {
-    $.ajax({
-        url: 'http://localhost/AISDataretriever/AISDataretriever.asmx/TransferShipHistory',
-        data: "MMSI=" + MMSI + "&startTime=" + starttime +"&endTime=" + endtime,
-        type: 'POST',
-        cache: false,
-        dataType: 'json',
-        success: function (aisdata) {
-            for (const [recordCount, aisship] of aisdata.entries()) {
-                var createMarker = addMarkerHistory(aisship.MMSI, aisship.Longitude, aisship.Latitude);
-            }
-            reload();
-        }, error: function () {
-            console.log("Connection Failed");
-        }
-    });
-}
-
-var intervalId;
+//var intervalId;
 map.on("click", function (event) {
     if (aisDataWindowActive == false) {
-        intervalId = window.setInterval(function () {
+//        intervalId = window.setInterval(function () {
             map.forEachFeatureAtPixel(event.pixel, function (feature, layer) {
                 //do something
                 //based on the featureID get the data of the ship from database and display: position, COG,SPEED, Heading,etc
@@ -155,16 +118,38 @@ map.on("click", function (event) {
                         var projectionCoord = ol.proj.transform(coordinate, 'EPSG:4326', 'EPSG:3857');
                         overlay.setPosition(projectionCoord);
                         aisDataWindowActive = true;
+                        window.open("TrackDetailsWebForm.aspx?MMSI=" + MMSI);
                     }, error: function () {
                         console.log("Connection Failed");
                     }
                 });
 
+/*
+                $.ajax({
+                    url: "TrackDetailsWebForm.aspx",
+                    data: "MMSI=" + feature.getId(),
+                    type: 'POST',
+                    cache: false,
+                    dataType: 'json',
+                    success: function (aisdata) {
+                        alert('Ok! It worked.');
+
+
+                    }, error: function () {
+                        console.log("Connection Failed");
+                    }
+                });
+*/
+ 
+
+
                 /*********************************************************************
                  * Temporarylly  place where ithe call for history display of the selected track
                  * 
                  */
-                DisplayTrackHistory(feature.getId());
+                DisplayTrackHistory(feature.getId(), map);
+
+
                 /*
                         console.log("cliquei na posicao: no navio com MMSI= " + feature.getId());
                 
@@ -178,7 +163,7 @@ map.on("click", function (event) {
                 */
             });
             console.log('refresh AIS data overlay')
-        }, 1000);
+ //       }, 1000);
     } else {
         alert('An AIS data Window is open. To see this AIS data, close the other first')
     }
@@ -188,7 +173,7 @@ map.on("click", function (event) {
 var aisDataWindowActive = false;
 $('a').click(function (e) {
     e.preventDefault();
-    window.clearInterval(intervalId);
+    //window.clearInterval(intervalId);
     aisDataWindowActive = false;
 
     return false;
@@ -196,6 +181,7 @@ $('a').click(function (e) {
 
 
 map.addControl(mousePositionControl);
+
 var myMarkerFeatures = [];
 
 var vectorRotation;
@@ -238,9 +224,9 @@ function getshipIcon(Navstatus, shipType) {
     var shipIcon = 'AISMarkers/AIS_Vessel.svg';
 
     if (Navstatus == 7) {
-        shipIcon = 'AISMarkers/fisheryShip.png';
+        shipIcon = 'AISMarkers/FishingShip.svg';
     } else if (Navstatus == 9 || Navstatus == 10) {
-        shipIcon = 'AISMarkers/cargo-ship.png'
+        shipIcon = 'AISMarkers/myDangerousCargo.svg'
     }
     else {
         switch (shipType) {
@@ -248,13 +234,13 @@ function getshipIcon(Navstatus, shipType) {
             case 'Vessel, Towing and length of the tow exceeds 200 mor breadth exceeds 25 m':
             case 'Carrying DG, HS, or MP, IMO hazard or pollutant category C':
             case 'Vessels with anti-pollution facilities or equipment':
-                shipIcon = 'AISMarkers/cargo-ship.png';
+                shipIcon = 'AISMarkers/myDangerousCargo.svg';
                 break;
             case 'Fishing':
-                shipIcon = 'AISMarkers/fisheryShip.png';
+                shipIcon = 'AISMarkers/FishingShip.svg';
                 break;
             case 'Cargo ships':
-                shipIcon = 'AISMarkers/myDangerousCargo.svg';
+                shipIcon = 'AISMarkers/CargoShip.svg';
                 break;
             case 'Engaged in military operations':
                 shipIcon = 'AISMarkers/myDangerousCargo.svg';
